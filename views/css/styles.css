@@ -55,14 +55,33 @@ body.wrong {
 
 }
 
-.boton:hover {
+.boton:hover{
     border-color: black;
 }
 
 .boton.correct {
     --hue: var(--hue-correct);
+    color: black;
 }
 
 .boton.wrong{
     --hue: var(--hue-wrong);
+}
+
+
+.boton-comenzar , .siguiente-boton{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hide {
+    display: none;
 }
