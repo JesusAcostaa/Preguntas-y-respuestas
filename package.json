@@ -1,0 +1,19 @@
+{
+  "name": "preguntas-y-respuestas",
+  "version": "1.0.0",
+  "description": "Banco de preguntas de selección multiple con opción de escoger unica respuesta",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Q&R"
+  ],
+  "author": "Jesús Orlando Acosta",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1"
+  }
+}
